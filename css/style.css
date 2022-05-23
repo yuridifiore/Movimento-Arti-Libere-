@@ -1,13 +1,14 @@
-body {margin: 0px; font-family: "Roboto Slab", serif !important;}
-header {background-color:#181818
+body {margin: 0px; font-family: "Roboto Slab", serif !important;
+		scroll-behavior: smooth; }
+header {background-color: white
 
 ; 
-		color: white;
+		color: black;
 		text-align: center;
 		/*padding: 5% 5% 0px 5%;*/
 	}
-
-main  {background-color: #181818;}
+html {scroll-behavior: smooth;}
+main  {background-color: white;}
 .whitelink{ text-decoration: none;
 			color: white;
 			text-decoration: bold;
@@ -15,7 +16,8 @@ main  {background-color: #181818;}
 
 
 
-nav { margin: 0px auto;}
+nav { margin: 0px auto;
+      background-color: #F5F5F5; }
 
 nav ul {list-style-type: none;
 		padding-left: 0px !important; }
@@ -53,14 +55,33 @@ li.active a{ color: white;}
 .unactive:hover {background-color: white;}
 li.unactive:hover a {color: grey;}
 				
-.morepadding {padding: 1em 15%;}
+.morepadding {padding: 1em 0%;}
+.row.morepadding {padding: 0% 5%;
+				  text-align: center;}
 
-#logohome {max-width: 100%;}
+#logohome {max-width: 100%;
+           margin-top: 5%;}
 
 .carousel-inner {padding: 5% 0px;}
 .row.no-gutters {padding: 7% 0px;
-				 background-color: 	#181818;
+				 background-color: white;
 				 color: #BEBEBE;
 				 }
-.row.no-gutters.central {background-color: 	#383838;}
+.row.no-gutters.central {background-color: 	#E0E0E0;
+						 color: #A0A0A0;}
+
 .card.mb-3 {border: none;}
+.card-body {background color: #E0E0E0 !important;}
+.card-img-top {max-width: 100%;}
+
+.nav-item {transition: color 0.15s ease-in-out;} 
+	       {transition: background-color 0.15s ease-in-out; }
+	       {transition: border-color 0.15s ease-in-out;
+	       	scroll-behavior: smooth;}
+
+.card-date {color: black;
+			}
+.card-title {color: #606060;}
+
+
+
