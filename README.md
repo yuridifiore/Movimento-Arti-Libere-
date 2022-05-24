@@ -1,182 +1,200 @@
 <!doctype html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Movimento Arti Libere Bologna</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/a4afcae08b.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<title>Movimento Arti Libere Bologna</title> <script src="https://kit.fontawesome.com/a4afcae08b.js" crossorigin="anonymous"></script> <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-</head>	
-<body class="container">
-	<header>
-	<nav class="navbar navbar-expand-lg fixed-top navbar-light">
-	  <a class="navbar-brand" href="#">
-	  	<img src="images/logo.jpg" width="50" height="50" alt="">
-	  </a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarNav">
-	    <ul class="navbar-nav">
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#section">Eventi</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#join">Join The Crew</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Sostienici</a>
-	      </li>
-	    </ul>
-	  </div>
-	</nav>
-		<!--nav>
-			<ul>
-				<li class="active"><a class="whitelink" href="#">homepage<a/></li>
-				<li class="unactive"><a class="whitelink" href="dovelaprendiamo.html">dove la prendiamo<a/></li>
-				<li class="unactive"><a class="whitelink" href="">quanto costa<a/></li>
-				<li class="unactive"><a class="whitelink" href="">calvin klein<a/></li>
-				<li class="unactive"><a class="whitelink" href="">sos rimasti<a/></li>
-			</ul>	
-		</nav-->
-		<img id="logohome" src="images/logohome.png" alt="logo">
-		<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-
-		  <div class="carousel-inner" id="carousel">
-		    <div class="carousel-item active" data-interval="10000">
-		      <img src="images/11.jpg" class="d-block w-100" alt="banconote">
-		    </div>
-		    <div class="carousel-item" data-interval="2000">
-		      <img src="images/foto22.png" class="d-block w-100" alt="...">
-		    </div>
-		    <div class="carousel-item">
-		      <img src="images/foto33.png" class="d-block w-100" alt="...">
-		    </div>
-		  </div>
-		  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		    <span class="sr-only">Previous</span>
+	</head>	
+	<body class="container">
+		<header>
+		<nav class="navbar navbar-expand-lg fixed-top navbar-light">
+		  <a class="navbar-brand" href="#">
+		  	<img src="images/logo.jpg" width="50" height="50" alt="">
 		  </a>
-		  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		    <span class="sr-only">Next</span>
-		  </a>
-		</div>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav">
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#section">Eventi</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#join">Join The Crew</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#sostienici">Sostienici</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+			<!--nav>
+				<ul>
+					<li class="active"><a class="whitelink" href="#">homepage<a/></li>
+					<li class="unactive"><a class="whitelink" href="dovelaprendiamo.html">dove la prendiamo<a/></li>
+					<li class="unactive"><a class="whitelink" href="">quanto costa<a/></li>
+					<li class="unactive"><a class="whitelink" href="">calvin klein<a/></li>
+					<li class="unactive"><a class="whitelink" href="">sos rimasti<a/></li>
+				</ul>	
+			</nav-->
+			<img id="logohome" src="images/logohome.png" alt="logo">
+			<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+  
+			  <div class="carousel-inner" id="carousel">
+			    <div class="carousel-item active" data-interval="10000">
+			      <img src="images/11.jpg" class="d-block w-100" alt="banconote">
+			    </div>
+			    <div class="carousel-item" data-interval="2000">
+			      <img src="images/foto22.png" class="d-block w-100" alt="...">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="images/foto33.png" class="d-block w-100" alt="...">
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
 
-	</header>
-	<main>
-		<section>
-			<h4><strong>La Lira di Apollo</strong></h4>
-			<p id="text" class="morepadding">Nell’iconografia classica Apollo viene spesso rappresentato insieme alla <strong>Lira</strong>, uno strumento di origine greca associato alla <strong>virtù</strong>, alla <strong>moderazione</strong>, all’<strong>equilibrio</strong> e all’<strong>armonia</strong>, che nel tempo ha rappresentato la figura divina garante delle <strong>arti</strong>, della <strong>musica</strong> e della <strong>poesia</strong>. La <strong>musica</strong> nell’antica Grecia non era “solo” un’arte, ma un aspetto importante della formazione culturale: veniva usata per educare l’<strong>anima</strong>. La musica è il <strong>linguaggio degli dei</strong>; essa, al contrario della parola, non ha bisogno di mediazioni, ma rispecchia direttamente la profonda e pura essenza vitale del mondo. È da questa che vogliamo partire per innalzare il nostro grido alla libertà. Libertà musicale, libertà artistica, libertà di espressione e di pensiero. Questo è il motivo per cui abbiamo scelto il simbolo della <strong>lira greca</strong>, che si accosta perfettamente agli ideali del <strong>Movimento Arti Libere</strong>, un nucleo di riferimento volto alla <strong>creatività musicale</strong> e all’<strong>emancipazione artistica</strong> che ogni giorno ci impegniamo ad accrescere.</p>
-		</section>
-		<div class="row">
-		  <div class="col-sm-4">
-		    <div class="card">
-		      <img src="images/cantante.jpg" class="card-img-top" alt="...">
-		      <div class="card-body">
-		        <h5 class="card-title">Prossimi Eventi</h5>
-		        <p class="card-text">Jam session, performance teatrali, esibizioni di ballo e molto altro</p>
-		        <a href="#section" class="btn btn-secondary">Scopri di più</a>
-		      </div>
-		    </div>
-		  </div>
-		  <div class="col-sm-4">
-		    <div class="card">
-		    	<img src="images/band.jpg" class="card-img-top" alt="...">
-		      <div class="card-body">
-		        <h5 class="card-title">Join the Crew</h5>
-		        <p class="card-text">Entra a far parte della crew, condividi le tue passioni e scopri quelle altrui</p>
-		        <a href="#join" class="btn btn-secondary">Scopri di più</a>
-		      </div>
-		    </div>
-		  </div>
-		  <div class="col-sm-4">
-		    <div class="card">
-		    	<img src="images/mani6.jpg" class="card-img-top last" alt="...">
-		      <div class="card-body">
-		        <h5 class="card-title">Sostieni il progetto</h5>
-		        <p class="card-text">Entra attivamente a supportare il progetto o fai una piccola donazione</p>
-		        <a href="#" class="btn btn-secondary">Scopri di più</a>
-		      </div>
-		    </div>
-		  </div>
-		</div>
-		<section>
-			<p id="text" class="morepadding">La musica è la lingua dello spirito. La sua segreta corrente vibra tra il cuore di colui che canta e l'anima di colui che ascolta.
-			<br/><strong>Seguiteci e partecipate</strong></p>
-		</section>	
-		<div class="card mb-3" style="max-width: 100%;" id="section">
-		  <div class="row no-gutters">
-		    <div class="col-md-4">
-		      <img src="images/jam.jpg" class="card-img" alt="...">
-		    </div>
-		    <div class="col-md-8">
-		      <div class="card-body">
-		      	<h5 class="card-date">28/05 Sabato</h5>
-		        <h5 class="card-title">Villi-Session</h5>
-		        <p class="card-text">Jam session in piazza Scaravilli. Porta il tuo strumento per partecipare alla jam o raggiungici per ballare e goderti la serata.</p>
-		        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-		      </div>
-		    </div>
-		  </div>
-		</div>
-		<div class="card mb-3" style="max-width: 100%;">
-		  <div class="row no-gutters central">
-		    <div class="col-md-4">
-		      <img src="images/teatro.jpg" class="card-img" alt="...">
-		    </div>
-		    <div class="col-md-8">
-		      <div class="card-body">
-		      	<h5 class="card-date">30/05 Lunedì</h5>
-		        <h5 class="card-title">Teatro Urbano</h5>
-		        <p class="card-text">I teatranti escono dal teatro per portare nelle strade i loro spettacoli, in un atmosfera calda e coinvolgente che solo le strade di Bologna sanno creare.</p>
-		        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-		      </div>
-		    </div>
-		  </div>
-		</div>
-		<div class="card mb-3" style="max-width: 100%;">
-		  <div class="row no-gutters">
-		    <div class="col-md-4">
-		      <img src="images/hiphop.jpg" class="card-img" alt="...">
-		    </div>
-		    <div class="col-md-8">
-		      <div class="card-body">
-		      	<h5 class="card-date">3/06 Venerdì</h5>
-		        <h5 class="card-title">Underground hip-Hop festival</h5>
-		        <p class="card-text">Giornata all'insegna dell'Hip-Hop e le sue nobili 4 arti. Concerti, esibizioni di break dance, contest di Graffiti e molto altro.</p>
-		        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-		      </div>
-		    </div>
-		  </div>
-		</div>
-		<section id="join">
-			<h4><strong>Join the Crew!</strong></h4>
-			<p>Se sei brillante e pensi in maniera originale, hai motivazione, voglia di fare e vuoi essere una parte di una Crew speciale, unito e non convenzionale, diventa una parte del nostro Wrap.</p>
-		<form class="form">
-			<h3>PARTECIPA</h3>
-			<p type="Nome:"><input placeholder=""></input></p>
-			<p type="Email:"><input placeholder=""></input></p>
-			<p type="La tua arte:"><input placeholder=""></input></p>
-			<button>Partecipa</button>
-		</form>
-		</section>
-		<section2>
-			<p id="follow" class="morepadding">SEGUICI SUI <strong>SOCIAL MEDIA</strong></p>
-		</section2>
-			<!--img id="homeimage" src="images/home.jpg" alt="banconote e cocaina"/>
-		</section-->
-		<!-- iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"> 
-		</iframe -->
-		<section class="row morepadding">
-			<section class="col-4">
-				<a href="https://www.instagram.com/movimento_arti_libere/?hl=it"><i class="fa-brands fa-instagram"></i></a>
+		</header>
+		<main>
+			<section>
+				<h4><strong>La Lira di Apollo</strong></h4>
+				<p id="text" class="morepadding">Nell’iconografia classica Apollo viene spesso rappresentato insieme alla <strong>Lira</strong>, uno strumento di origine greca associato alla <strong>virtù</strong>, alla <strong>moderazione</strong>, all’<strong>equilibrio</strong> e all’<strong>armonia</strong>, che nel tempo ha rappresentato la figura divina garante delle <strong>arti</strong>, della <strong>musica</strong> e della <strong>poesia</strong>. La <strong>musica</strong> nell’antica Grecia non era “solo” un’arte, ma un aspetto importante della formazione culturale: veniva usata per educare l’<strong>anima</strong>. La musica è il <strong>linguaggio degli dei</strong>; essa, al contrario della parola, non ha bisogno di mediazioni, ma rispecchia direttamente la profonda e pura essenza vitale del mondo. È da questa che vogliamo partire per innalzare il nostro grido alla libertà. Libertà musicale, libertà artistica, libertà di espressione e di pensiero. Questo è il motivo per cui abbiamo scelto il simbolo della <strong>lira greca</strong>, che si accosta perfettamente agli ideali del <strong>Movimento Arti Libere</strong>, un nucleo di riferimento volto alla <strong>creatività musicale</strong> e all’<strong>emancipazione artistica</strong> che ogni giorno ci impegniamo ad accrescere.</p>
 			</section>
-			<section class="col-4">
-				<a href="https://www.facebook.com/movimentoartilibere"><i class="fa-brands fa-facebook"></i></a>
+			<div class="row">
+			  <div class="col-sm-4">
+			    <div class="card">
+			      <img src="images/cantante.jpg" class="card-img-top" alt="...">
+			      <div class="card-body">
+			        <h5 class="card-title">Prossimi Eventi</h5>
+			        <p class="card-text">Jam session, performance teatrali, esibizioni di ballo e molto altro</p>
+			        <a href="#section" class="btn btn-secondary">Scopri di più</a>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col-sm-4">
+			    <div class="card">
+			    	<img src="images/band.jpg" class="card-img-top" alt="...">
+			      <div class="card-body">
+			        <h5 class="card-title">Join the Crew</h5>
+			        <p class="card-text">Entra a far parte della crew, condividi le tue passioni e scopri quelle altrui</p>
+			        <a href="#join" class="btn btn-secondary">Scopri di più</a>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col-sm-4">
+			    <div class="card">
+			    	<img src="images/mani6.jpg" class="card-img-top last" alt="...">
+			      <div class="card-body">
+			        <h5 class="card-title">Sostieni il progetto</h5>
+			        <p class="card-text">Entra attivamente a supportare il progetto o fai una piccola donazione</p>
+			        <a href="#" class="btn btn-secondary">Scopri di più</a>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			<section>
+				<p id="text" class="morepadding">La musica è la lingua dello spirito. La sua segreta corrente vibra tra il cuore di colui che canta e l'anima di colui che ascolta.
+				<br/><strong>SEGUICI E PARTECIPA</strong></p>
+			</section>	
+			<div class="card mb-3" style="max-width: 100%;" id="section">
+			  <div class="row no-gutters">
+			    <div class="col-md-4">
+			      <img src="images/jam.jpg" class="card-img" alt="...">
+			    </div>
+			    <div class="col-md-8">
+			      <div class="card-body">
+			      	<h5 class="card-date">28/05 Sabato</h5>
+			        <h5 class="card-title">Villi-Session</h5>
+			        <p class="card-text">Jam session in piazza Scaravilli. Porta il tuo strumento per partecipare alla jam o raggiungici per ballare e goderti la serata.</p>
+			        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			<div class="card mb-3" style="max-width: 100%;">
+			  <div class="row no-gutters central">
+			    <div class="col-md-4">
+			      <img src="images/teatro.jpg" class="card-img" alt="...">
+			    </div>
+			    <div class="col-md-8">
+			      <div class="card-body">
+			      	<h5 class="card-date">30/05 Lunedì</h5>
+			        <h5 class="card-title">Teatro Urbano</h5>
+			        <p class="card-text">I teatranti escono dal teatro per portare nelle strade i loro spettacoli, in un atmosfera calda e coinvolgente che solo le strade di Bologna sanno creare.</p>
+			        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			<div class="card mb-3" style="max-width: 100%;">
+			  <div class="row no-gutters">
+			    <div class="col-md-4">
+			      <img src="images/hiphop.jpg" class="card-img" alt="...">
+			    </div>
+			    <div class="col-md-8">
+			      <div class="card-body">
+			      	<h5 class="card-date">3/06 Venerdì</h5>
+			        <h5 class="card-title">Underground hip-Hop festival</h5>
+			        <p class="card-text">Giornata all'insegna dell'Hip-Hop e le sue nobili 4 arti. Concerti, esibizioni di break dance, contest di Graffiti e molto altro.</p>
+			        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			<section id="join">
+				<h4><strong>Join the Crew!</strong></h4>
+				<p>Se sei brillante e pensi in maniera originale, hai motivazione, voglia di fare e vuoi essere una parte di una Crew speciale, unito e non convenzionale, diventa una parte del Movimento Arti Libere.</p>
+			<form class="form">
+				<h3>UNISCITI</h3>
+				<p type="Nome:"><input placeholder=""></input></p>
+				<p type="Email:"><input placeholder=""></input></p>
+				<p type="La tua arte:"><input placeholder=""></input></p>
+				<button>Partecipa</button>
+			</form>
 			</section>
-			<section class="col-4">
-				<a href="https://www.youtube.com/channel/UC7xEAPgs9j9PzQa1FVoeuCw/null"><i class="fa-brands fa-youtube"></i></a>
+			<section>
+				<h4 id="sostienici"><strong>Sostienici</strong></h4>
 			</section>
-		</section>
-	</main>
-</body>
+			<section>
+				<p id="follow" class="morepadding">SEGUICI SUI <strong>SOCIAL MEDIA</strong></p>
+			</section>
+				<!--img id="homeimage" src="images/home.jpg" alt="banconote e cocaina"/>
+			</section-->
+			<!-- iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"> 
+			</iframe -->
+			<section class="row morepadding">
+				<section class="col-4">
+					<a href="https://www.instagram.com/movimento_arti_libere/?hl=it"><i class="fa-brands fa-instagram"></i></a>
+				</section>
+				<section class="col-4">
+					<a href="https://www.facebook.com/movimentoartilibere"><i class="fa-brands fa-facebook"></i></a>
+				</section>
+				<section class="col-4">
+					<a href="https://www.youtube.com/channel/UC7xEAPgs9j9PzQa1FVoeuCw/null"><i class="fa-brands fa-youtube"></i></a>
+				</section>
+			</section>
+		</main>
+	</body>
 </html>
