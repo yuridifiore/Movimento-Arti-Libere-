@@ -1,87 +1,262 @@
-body {margin: 0px; font-family: "Roboto Slab", serif !important;
-		scroll-behavior: smooth; }
-header {background-color: white
+body {
+	margin: 0px; 
+	font-family: "Roboto Slab", serif !important;
+	scroll-behavior: smooth; 
+}
 
-; 
-		color: black;
-		text-align: center;
-		/*padding: 5% 5% 0px 5%;*/
-	}
-html {scroll-behavior: smooth;}
-main  {background-color: white;}
-.whitelink{ text-decoration: none;
-			color: white;
-			text-decoration: bold;
-			}
+header {
+	background-color: white; 
+	color: black;
+	text-align: center;
+	/padding: 5% 5% 0px 5%;/
+}
 
+html {
+	scroll-behavior: smooth;
+}
 
+main  {
+	background-color: white;
+}
 
-nav { margin: 0px auto;
-      background-color: #F5F5F5; }
+.whitelink{ 
+	text-decoration: none;
+	color: white;
+	text-decoration: bold;
+}
 
-nav ul {list-style-type: none;
-		padding-left: 0px !important; }
+nav { 
+	margin: 0px auto;
+    background-color: #F5F5F5; 
+}
 
-nav ul li { display: inline-block; 
-			/*background-color: white;*/
-			padding: 8px;
-			border-top-left-radius: 8px;
-			border-top-right-radius: 8px;
-			text-transform: uppercase;
-			}
+nav ul {
+	list-style-type: none;
+	padding-left: 0px !important; 
+}
 
-h1 {text-align: center; 
+nav ul li {
+	display: inline-block; 
+	/background-color: white;/
+	padding: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	text-transform: uppercase;
+}
+
+h1 {
+	text-align: center; 
 	margin: 0px auto;
 	font-family: "Oleo Script Swash Caps";
-	
-	/*text-transform:uppercase;*/
+	/text-transform:uppercase;/
 	color: white !important;
-	}
+}
 
-#homeimage {max-width: 60%; 
-			margin: 5% 20%;
-			text-align: center;
-			opacity: 0.8;
-			transition: opacity .25s ease-in-out; }
+#homeimage {
+	max-width: 60%; 
+	margin: 5% 20%;
+	text-align: center;
+	opacity: 0.8;
+	transition: opacity .25s ease-in-out; 
+}
 
-#homeimage:hover {opacity: 1;}
+#homeimage:hover {
+	opacity: 1;
+}
 
-#homeicon {font-size: 2em; 
-		}
-.active {background-color: grey;}
-li.active a{ color: white;}
+#homeicon {
+	font-size: 2em; 
+}
 
-.unactive {transition: background-color .10s ease-in-out;}
-.unactive:hover {background-color: white;}
-li.unactive:hover a {color: grey;}
+.active {
+	background-color: grey;
+}
+
+li.active a { 
+	color: white;
+}
+
+.unactive {
+	transition: background-color .10s ease-in-out;
+}
+
+.unactive:hover {
+	background-color: white;
+}
+
+li.unactive:hover a {
+	color: grey;
+}
 				
-.morepadding {padding: 1em 0%;}
-.row.morepadding {padding: 0% 5%;
-				  text-align: center;}
+.morepadding {
+	padding: 1em 0%;
+}
 
-#logohome {max-width: 100%;
-           margin-top: 5%;}
+.row.morepadding {
+	padding: 0% 5%;
+	text-align: center;
+}
 
-.carousel-inner {padding: 5% 0px;}
-.row.no-gutters {padding: 7% 0px;
-				 background-color: white;
-				 color: #BEBEBE;
-				 }
-.row.no-gutters.central {background-color: 	#E0E0E0;
-						 color: #A0A0A0;}
+#logohome {
+	max-width: 100%;
+    margin-top: 5%;
+}
 
-.card.mb-3 {border: none;}
-.card-body {background color: #E0E0E0 !important;}
-.card-img-top {max-width: 100%;}
+.carousel-inner {
+	padding: 5% 0px;
+}
 
-.nav-item {transition: color 0.15s ease-in-out;} 
-	       {transition: background-color 0.15s ease-in-out; }
-	       {transition: border-color 0.15s ease-in-out;
-	       	scroll-behavior: smooth;}
+.row.no-gutters {
+	padding: 7% 0px;
+	background-color: white;
+	color: #BEBEBE;
+}
 
-.card-date {color: black;
-			}
-.card-title {color: #606060;}
+.row.no-gutters.central {
+	background-color: #E0E0E0;
+	color: #A0A0A0;
+}
 
+.card.mb-3 {
+	border: none;
+}
+
+.card-body {
+	background color: #E0E0E0 !important;
+}
+
+.card-img-top {
+	max-width: 100%;
+}
+
+.nav-item {
+	transition: color 0.15s ease-in-out;
+	transition: background-color 0.15s ease-in-out; 
+	transition: border-color 0.15s ease-in-out;
+	scroll-behavior: smooth;
+}
+
+.card-date {
+	color: black;
+}
+
+.card-title {
+	color: #606060;
+}
+
+.row.morepadding {
+	padding: 0% 5% 5% 5%;
+}
+
+.fa-instagram {
+	color:grey;
+	font-size: 2em;
+}
+
+.fa-facebook {
+	color:grey;
+	font-size: 2em;
+}
+
+.fa-youtube {
+	color:grey;
+	font-size: 2em;
+}
+
+#join {
+	text-align: center;
+	color: black;
+}
+
+#follow {
+	text-align: center;
+	color: grey;
+}
+
+h4 {
+	text-align: center;
+	color:#606060 !important;
+}
+
+.morepadding {
+	padding: 1em 5%;
+}
+
+#text {
+	text-align: center !important;
+}
+
+
+
+body {
+	background:#F5F5F5;
+	margin:0%
+}
+
+.form {
+	width:340px;
+	height:440px;
+	background:#F5F5F5;
+	border-radius:8px;
+	margin:calc(30vh - 220px) auto;
+	padding:15px 10px;
+	max-width:calc(100vw - 40px);
+	box-sizing:border-box;
+	font-family:'Roboto Slab',sans-serif;
+	position:relative
+}
+
+h3 {
+	margin:10px 0;
+	padding-bottom:10px;
+	width:320px;color:#606060;
+	border-bottom:2px solid #606060
+}
+
+input {
+	width:100%;
+	padding:10px;
+	box-sizing:border-box;
+	background:none;
+	outline:none;
+	resize:none;
+	border:0;
+	font-family:'Roboto Slab',sans-serif;
+	transition:all .3s;
+	border-bottom:1px solid #606060
+}
+
+input:focus {
+	border-bottom:1px solid #606060
+}
+
+p:before {
+	content:attr(type);
+	display:block;
+	margin:28px 0 0;
+	font-size:14px;
+	color:#606060
+}
+
+button {
+	float:center;
+	padding:8px 12px;
+	margin:8px 0 0;
+	font-family:'Roboto Slab',sans-serif;
+	border:2px solid #606060;
+	background:0;
+	color:#606060;
+	cursor:pointer;
+	transition:all .3s
+}
+
+button1:hover{
+	background:#606060;
+	color:#606060
+}
+
+span{
+	margin:0 5px 0 15px
+}
 
 
