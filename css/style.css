@@ -11,6 +11,7 @@ header {
 	/padding: 5% 5% 0px 5%;/
 }
 
+.morepadding {font-family: "Grape Nuts", cursive !important;}
 html {
 	scroll-behavior: smooth;
 }
@@ -52,15 +53,12 @@ h1 {
 	color: white !important;
 }
 
-#homeimage {
-	max-width: 60%; 
-	margin: 5% 20%;
-	text-align: center;
+.imgsh {
+
 	opacity: 0.8;
 	transition: opacity .25s ease-in-out; 
 }
-
-#homeimage:hover {
+.imgsh:hover {
 	opacity: 1;
 }
 
@@ -89,17 +87,20 @@ li.unactive:hover a {
 }
 				
 .morepadding {
-	padding: 1em 0%;
+	padding-top: 0% !important;
+	padding-bottom: 0%;
 }
-
+#paddingbottom {padding-bottom: 5% !important;}
+/*.paddingup {padding: 0% 0% !important;}*/
 .row.morepadding {
 	padding: 0% 5%;
 	text-align: center;
 }
+#paddingtop {padding-top: 5% !important;}
 
 #logohome {
 	max-width: 100%;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .carousel-inner {
@@ -107,7 +108,7 @@ li.unactive:hover a {
 }
 
 .row.no-gutters {
-	padding: 7% 0px;
+	padding-bottom: 3%;
 	background-color: white;
 	color: #BEBEBE;
 }
@@ -172,7 +173,9 @@ li.unactive:hover a {
 	text-align: center;
 	color: grey;
 }
-
+.follow1 {padding-top: 8%;
+		  color: grey;}
+.follow2 {margin-bottom: 8%;}
 h4 {
 	text-align: center;
 	color:#606060 !important;
@@ -259,4 +262,95 @@ span{
 	margin:0 5px 0 15px
 }
 
+.btn {border: none;}
+#acquista {text-align: center;}
+.form1 {
+	width:100%;
+	height:440px;
+	background:#F5F5F5;
+	border-radius:8px;
+	margin:calc(30vh - 220px) auto;
+	padding:15px 10px;
+	max-width:calc(100vw - 40px);
+	box-sizing:border-box;
+	font-family:'Roboto Slab',sans-serif;
+	position:relative
+}
 
+h3 {
+	margin:10px 0;
+	padding-bottom:10px;
+	width:100%;color:#606060;
+	text-align: center !important;	
+}
+
+input {
+	width:100%;
+	padding:10px;
+	box-sizing:border-box;
+	background:none;
+	outline:none;
+	resize:none;
+	border:0;
+	font-family:'Roboto Slab',sans-serif;
+	transition:all .3s;
+	border-bottom:1px solid #606060
+}
+
+input:focus {
+	border-bottom:1px solid #606060
+}
+
+p:before {
+	content:attr(type);
+	display:block;
+	margin:28px 0 0;
+	font-size:14px;
+	color:#606060
+}
+
+button {
+	float:right;
+	padding:8px 12px;
+	margin:8px 0 0;
+	font-family:'Roboto Slab',sans-serif;
+	border:2px solid #606060;
+	background:0;
+	color:#606060;
+	cursor:pointer;
+	transition:all .3s
+}
+
+button1 {
+	float:center;
+	padding:8px 12px;
+	margin:8px 0 0;
+	font-family:'Roboto Slab',sans-serif;
+	border:2px solid #606060;
+	background:0;
+	color:#606060;
+	cursor:pointer;
+	transition:all .3s
+}
+
+button1:hover{
+	background:#606060;
+	color:#606060
+}
+
+span{
+	margin:0 5px 0 15px
+}
+
+p1 {
+	color:grey;
+}
+#albero {
+	max-width: 45%;
+	margin: 40px 25%;
+}
+
+#wireframe {
+	max-width: 45%;
+	margin: 40px 25%;
+}
