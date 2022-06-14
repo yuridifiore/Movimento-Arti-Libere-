@@ -10,7 +10,7 @@ header {
 	text-align: center;
 	/padding: 5% 5% 0px 5%;/
 }
-
+h2 {text-align: center;}
 .morepadding {font-family: "Grape Nuts", cursive !important;}
 html {
 	scroll-behavior: smooth;
