@@ -354,3 +354,7 @@ p1 {
 	max-width: 45%;
 	margin: 40px 25%;
 }
+
+.pabout {margin-bottom: 2em}
+
+.babout {text-decoration: underline;}
