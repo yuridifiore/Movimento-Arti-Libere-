@@ -358,3 +358,6 @@ p1 {
 .pabout {margin-bottom: 2em}
 
 .babout {text-decoration: underline;}
+
+.imgabout {max-width: 80%;
+           margin-top: 2%;}
